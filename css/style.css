@@ -257,10 +257,12 @@ header div span{
     "main main"
     "footer footer";
     grid-template-columns: 40% 60%;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 4rem 1fr 4rem;
 }
 
 .header-grid-2{
+    height: 100%;
+    width: 100%;
     grid-area: header;
     background-color: #101C40;
     
@@ -356,20 +358,18 @@ header div span{
 
 
 .members-card{
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.5rem;
     background-color: rgb(16, 28, 64, 0.7);
-    padding: 0.3rem;
-    margin: 0.5rem;
 }
 
 .members-card-text{
-    height: 10%;
+    height: 30%;
     width: 100%;
     text-align: center;
     color:#ff0090;
@@ -381,7 +381,7 @@ header div span{
 }
 
 .members-card-img{
-    height: 90%;
+    height: 70%;
     width: 90%;
 }
 
