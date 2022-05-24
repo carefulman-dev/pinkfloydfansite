@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Roboto&family=Yantramanav:wght@500&display=swap" rel="stylesheet"> 
+    <!-- Link Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pink Floyd</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="grid-header">
+            <div class="header-cont">
+                <h1><span>Pink </span>Floyd</h1>
+            </div>
+        </header>
+        <nav class="grid-nav">
+            <!-- Barra de navegación para escritorios que esta oculta en versión móvil -->
+            <div class="desktop-nav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="pages/discografia.html">Discografía</a></li>
+                    <li><a href="pages/integrantes.html">Integrantes</a></li>
+                    <li><a href="pages/biografia.html">Biografía</a></li>
+                    <li><a href="pages/galeria.html">Galería</a></li>
+                </ul>
+            </div>
+            <!-- Barra de navegación para dispositivos móviles -->
+            <div class="mobile-nav">
+                <button class="btn button-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i></button>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header mobile-nav-2">
+                    <h5 id="offcanvasRightLabel" class="pink-floyd-title">Pink <span class="pink-floyd-title-span">Floyd</span></h5>
+                    <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body mobile-nav-body">
+                    <ul class="mobile-list-body">
+                        <li><a href="#" class="mobile-list-item">Inicio</a></li>
+                        <li><a href="pages/discografia.html" class="mobile-list-item">Discografía</a></li>
+                        <li><a href="pages/integrantes.html" class="mobile-list-item">Integrantes</a></li>
+                        <li><a href="pages/biografia.html" class="mobile-list-item">Biografía</a></li>
+                        <li><a href="pages/galeria.html" class="mobile-list-item">Galería</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <main class="grid-main">
+            <div class="grid-main-content">
+                <div class="grid-main-content-title">
+                    <h3>The Pink Floyd Fansite</h3>
+                    <p>Sitio creado por Esteban Gomez.</p>
+                    <p>Aquí encontraras todo lo relacionado a la mejor banda de rock de todos los tiempos.</p>
+                </div>
+                <div class="grid-main-content-section1">
+                    <div class="card-1-text">
+                        <h3>Mejor disco: <b>Animals</b></h3>
+                        <p>Puedes encontrar más discos clickeando el botón de abajo </p>
+                        <a class="btn button-style" href="pages/discografia.html" role="button">Ir a Discografía</a>
+                    </div>
+                    <div class="card-1-img">
+                        <img src="img/animals.jpg" alt="Animals Pink Floyd">
+                    </div>
+                </div>
+                <div class="grid-main-content-section2">
+                    <div class="card-1-text">
+                        <h3>¡Tenemos galería!</h3>
+                        <p>Puedes ingresar clickeando el botón de abajo</p>
+                        <a class="btn button-style" href="pages/galeria.html" role="button">Ir a Galería</a>
+                    </div>
+                    <div class="card-1-img">
+                        <img src="img/sydbarrett.jpg" alt="sydbarrett">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="grid-footer">
+            <div class="flex-footer">
+                <h2 class="pink-floyd-title">Pink <span class="pink-floyd-title-span">Floyd</span></h2>
+                <i class="bi bi-whatsapp icon-style"></i>
+            </div>
+        </footer>
+    </div class="grid-container">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
